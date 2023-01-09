@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;;
+}
+.flex
+{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+header
+{
+ padding: 20px 0px;
+}
+.banner
+{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.3)) ,url(./img/mainbg.jpg);
+    background-size: cover;
+}
+.logo img
+{
+  width: 110px;
+}
+.con
+{
+  max-width: 1200px;
+  margin: auto;
+}
+nav ul
+{
+list-style: none;
+}
+nav li
+{
+  display: inline;
+}
+nav li a
+{
+  color:#fff;
+  padding: 20px;
+}
+a
+{
+  text-decoration: none;
+}
+.banner-text
+{
+  text-align: center;
+  color: #fff;
+  padding-top: 220px;
+}
+.banner-text h1
+{
+  font-size: 75px;
+  font-weight: bold;
+
+}
+.banner-text h1 span
+{
+  color: #FF9F1C;
+}
+.banner-text p
+{
+ font-size: 20px;
+}
+.about
+{
+  background:#F5F5F5;
+  text-align: center;
+  padding: 50px 0;
+}
+.about h2
+{
+  color: #000;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.btn{
+  background: rgb(70, 67, 67);
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+}
+p{
+  line-height: 1.5;
+}
+.wanders{
+  text-align: center;
+  padding: 60px 0;
+}
+.wanders h2{
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.t_box{
+  position: relative;
+  width: 32%;
+}
+.t_box img{
+  width: 100%;
+}
+.t_box a h4{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 2px 2px #000;
+}
+.t_box1 img{
+  width: 100%;
+}
+.t_box1{
+  position: relative;
+  width: 66%;
+}
+.t_box1 h4 ,.t_box2 h4{
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  color: #fff;
+  font-size:20px;
+  font-weight: bold;
+  text-shadow: 0px 2px 2px #000;
+}
+
+.t_box2 img{
+  width: 100%;
+}
+.t_box2{
+  width: 32%;
+  position: relative;
+}
+
+.video{
+  height: 80vh;
+  background:linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.3)) ,url(./img/youtube.jpg);
+  background-size: cover;
+  position: relative;
+}
+.vbox{
+  position: absolute;
+  top: 50%;
+  left: 34%;
+}
+.vbox h1{
+  font-size: 50px;
+  color: #fff;
+}
+.circle{
+
+width:130px;
+height: 130px;
+background: #fff;
+border-radius: 50%;
+margin: auto;
+}
+.team{
+  padding: 40px 0;
+  text-align: center;
+}
+.team img{
+  border-radius: 50%;
+  padding: 20px 0;
+}
+.team h2{
+  padding-bottom: 20px;
+}
+footer{
+  background: #000;
+  color: #F5F5F5;
+  padding: 20px 0;
+}
+.f-box{
+  text-align: center;
+}
+.f-box ul li{
+  color: #fff;
+  list-style: none;
+}
+.copyright{
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright h5{
+  color: rgb(206, 198, 198);
+}
+.f-box a i{
+  color: #fff;
+  padding: 5px 5px;
+}
+.l_box1{
+  padding: 5px 0;
+  width: 32%;
+  position: relative;
+}
+.l_box1 img{
+  width: 100%;
+}
+.l_box1 h4,.l_box2 h4{
+  position: absolute;
+  top: 196px;
+  left: 10px;
+  color: #fff;
+  font-size:20px;
+  font-weight: bold;
+  text-shadow: 0px 2px 2px #000;
+}
+.l_box2{
+  padding: 5px 0;
+  position: relative;
+  width: 66%;
+}
+.l_box2 img{
+  width: 100%;
+}
